@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-section">
+        <h1>Expense Tracker</h1>
+
+        <div class="summary">
+          <h2>Your Balance</h2>
+          <p id="balance">Ksh 0.00</p>
+
+          <div class="income-expense">
+            <div>
+              <h3>Income</h3>
+              <p id="income">Ksh 0.00</p>
+            </div>
+
+            <div>
+              <h3>Expenses</h3>
+              <p id="expenses">Ksh 0.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mpesa-parser">
+          <h3>Paste M-Pesa Message</h3>
+          <textarea
+            id="mpesa-text"
+            placeholder="Paste M-Pesa message here"
+          ></textarea>
+          <button id="parse-btn">Auto Fill</button>
+        </div>
+
+        <div class="form">
+          <h3>Add Transaction</h3>
+
+          <input type="text" id="text" placeholder="Enter description" />
+          <input type="number" id="amount" placeholder="Enter amount" />
+
+          <select id="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+
+          <button id="add-btn">Add Transaction</button>
+        </div>
+      </div>
+
+      <div class="transactions">
+        <h3>History</h3>
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
