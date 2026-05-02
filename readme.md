@@ -24,9 +24,11 @@ A simple and efficient web-based expense tracker that helps users manage their i
 
 ## 📸 Screenshots
 
-![Home](screenshot1.png)
-![Transactions](screenshot2.png)
+### 🏠 Dashboard
+![Dashboard](screenshot1.png)
 
+### 📋 Transactions
+![Transactions](screenshot2.png)
 ---
 
 ## ▶️ How to Run Locally
