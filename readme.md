@@ -24,7 +24,8 @@ A simple and efficient web-based expense tracker that helps users manage their i
 
 ## 📸 Screenshots
 
-(Add screenshots of your app here)
+![Home](screenshot1.png)
+![Transactions](screenshot2.png)
 
 ---
 
