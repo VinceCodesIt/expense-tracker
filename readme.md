@@ -42,8 +42,7 @@ A simple and efficient web-based expense tracker that helps users manage their i
 
 ## 🌐 Live Demo
 
-(Add your deployed link here once you publish it)
-
+https://vincecodesit.github.io/expense-tracker/
 ---
 
 ## 📌 Future Improvements
